@@ -1,9 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
+import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
 import NavLogo from '../public/assets/navLogo.png';
 import { ConnectButton } from "@rainbow-me/rainbowkit";
@@ -84,7 +83,7 @@ const Navbar = () => {
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
             {account ? (
-              <Navmenu account={account} disconnect={() => disconnect()} />
+              Disconnect
                 ) : (
                     <ConnectButton />
                 )}

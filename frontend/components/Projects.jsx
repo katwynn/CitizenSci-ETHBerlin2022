@@ -57,6 +57,12 @@ const Projects = () => {
             projectUrl='https://eu-citizen.science/project/285'
             tech='Vue JS'
           />
+          <ProjectItem
+            title='Naturens'
+            backgroundImg={Naturens}
+            projectUrl='https://eu-citizen.science/project/285'
+            tech='Vue JS'
+          />
         </div>
       </div>
 

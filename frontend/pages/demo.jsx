@@ -16,9 +16,9 @@ const netflix = () => {
         <p className='uppercase text-sm tracking-widest text-gray-600'>
           OPEN SCIENCE POWERED BY WEB3
         </p>
-        <form enctype="multipart/form-data">
+        <form encType="multipart/form-data">
             
-            <label for="myfile">Select a file:</label>
+            <label htmlFor="myfile">Select a file:</label>
             <input type="file" id="myfile" name="myfile" />
             <br /><br />
             <button className="p-3 px-10">

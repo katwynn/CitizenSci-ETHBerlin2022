@@ -18,7 +18,7 @@ const netflix = () => {
           width="600px"
           height="600px"
           className="max-w-[1240px]"
-          frameborder="0"
+          frameBorder="0"
           ></iframe>
           <a href="https://app.submarine.me/submarine/nft?edit=wNcJizZfq21qasD3vQqvNy"> View submarined
           </a>

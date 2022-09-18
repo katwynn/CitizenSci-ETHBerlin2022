@@ -6,6 +6,4 @@ Submarine.me allows NFT-gated access to files. In our case, the user gets a NFT-
 Data scientists usually spend up to 80% [https://blog.ldodds.com/2020/01/31/do-data-scientists-spend-80-of-their-time-cleaning-data-turns-out-no/] of their time cleaning data, which could be used more wisely for creating useful insights for society.
 For the user, they can display their contributions as a collection of different badges similar to the idea of an on-chain CV to showcase their interest and skills. The difference to the "old world" is, that these cannot get lost or destroyed as they are stored decentrally and allow for unique benefits based on the effort of the user, i.e. early-access to research papers to which people contributed.    
 
-![UK-SCAPE](https://user-images.githubusercontent.com/88492019/190884732-064e4a23-a5c1-4b23-b4ff-33e35c2d114b.png)
-
 #crowdsourcing #wisdom of the crowd #open science

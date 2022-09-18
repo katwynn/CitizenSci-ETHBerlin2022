@@ -13,23 +13,15 @@ const netflix = () => {
     <div id='home' className='w-full h-screen text-center'>
     <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
       <div>
-        <p className='uppercase text-sm tracking-widest text-gray-600'>
-          OPEN SCIENCE POWERED BY WEB3
-        </p>
-        <form enctype="multipart/form-data">
-            
-            <label for="myfile">Select a file:</label>
-            <input type="file" id="myfile" name="myfile" />
-            <br /><br />
-            <button className="p-3 px-10">
-                <input type="submit" />
-
-            </button>
-        </form>
-        <Link href='/mint'>
-          <a> Mint
+        <iframe
+          src="https://gateway.ipfscdn.io/ipfs/Qma5FgmS9s3hkQrURfG4XDnh5Dxp9Fx9ZjBYkPFUNdQwfi/nft-drop.html?contract=0xF7F49781C77c073d8B5796F0d5357948b9d08b13&chainId=80001"
+          width="600px"
+          height="600px"
+          className="max-w-[1240px]"
+          frameborder="0"
+          ></iframe>
+          <a href="https://app.submarine.me/submarine/nft?edit=wNcJizZfq21qasD3vQqvNy"> View submarined
           </a>
-        </Link>
       </div>
     </div>
   </div> 

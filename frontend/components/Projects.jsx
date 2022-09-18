@@ -19,7 +19,7 @@ const Projects = () => {
         <h2 className='py-4'>Contibute to projects</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Vue To Do App'
+            title='Picture Pile'
             backgroundImg={Algforskarsommar}
             projectUrl='/picturepile'
             tech='A citizen sci project'

@@ -1,13 +1,17 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import Algforskarsommar from '../public/assets/projects/Algforskarsommar.png';
-import Aurora from '../public/assets/projects/Aurora.png'
-import Butterfly from '../public/assets/projects/Butterfly Migration.png'
-import MarineMammals from '../public/assets/projects/Marine Mammals in Belgium.png'
-import CitizenObservatory from '../public/assets/projects/Citizen Observatory of Drought.png'
-import Naturens from '../public/assets/projects/Naturens kalender.png'
 import ProjectItem from './ProjectItem';
+import Project1 from '../public/assets/projects/project1.jpg';
+import Project2 from '../public/assets/projects/project2.jpg';
+import Project3 from '../public/assets/projects/project3.jpg';
+import Project4 from '../public/assets/projects/project4.jpg';
+import Project5 from '../public/assets/projects/project5.jpg';
+import Project6 from '../public/assets/projects/project6.jpg';
+import Project7 from '../public/assets/projects/project7.jpg';
+import Project8 from '../public/assets/projects/project8.jpg';
+import Project9 from '../public/assets/projects/project9.jpg';
+
 
 const Projects = () => {
   return (
@@ -20,14 +24,14 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
             title='Picture Pile'
-            backgroundImg={Algforskarsommar}
+            backgroundImg={Project6}
             projectUrl='/picturepile'
             tech='A citizen sci project'
           />
           <ProjectItem
-            title='Aurora'
-            backgroundImg={Aurora}
-            projectUrl='https://eu-citizen.science/project/361'
+            title='Project1'
+            backgroundImg={Project1}
+            projectUrl='/'
             tech='A citizen sci project'
           />
         </div>
@@ -40,27 +44,27 @@ const Projects = () => {
         <h2 className='py-4'>View your contribution</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Vuex To Do App'
-            backgroundImg={Butterfly}
-            projectUrl='https://eu-citizen.science/project/357'
+            title='Project2'
+            backgroundImg={Project2}
+            projectUrl='/'
             tech='Vue Vuex JS'
           />
           <ProjectItem
-            title='ggQuest'
-            backgroundImg={CitizenObservatory}
-            projectUrl='https://eu-citizen.science/project/358'
+            title='Project3'
+            backgroundImg={Project3}
+            projectUrl='/'
             tech='Vue JS'
           />
           <ProjectItem
-            title='ggQuest'
-            backgroundImg={MarineMammals}
-            projectUrl='https://eu-citizen.science/project/285'
+            title='Project4'
+            backgroundImg={Project4}
+            projectUrl='/'
             tech='Vue JS'
           />
           <ProjectItem
-            title='Naturens'
-            backgroundImg={Naturens}
-            projectUrl='https://eu-citizen.science/project/285'
+            title='Project5'
+            backgroundImg={Project5}
+            projectUrl='/'
             tech='Vue JS'
           />
         </div>

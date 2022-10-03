@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import React from 'react';
-import Algforskarsommar from '../public/assets/projects/Algforskarsommar.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import Gold3 from '../public/assets/skills/Gold3.png';

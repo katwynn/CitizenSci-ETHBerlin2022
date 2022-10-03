@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import Algforskarsommar from '../public/assets/projects/Algforskarsommar.png';
+import Project6 from '../public/assets/projects/project6.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import Gold3 from '../public/assets/skills/Gold3.png';
@@ -17,7 +17,7 @@ const netflix = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={Algforskarsommar}
+          src={Project6}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
